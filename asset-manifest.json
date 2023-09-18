@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/usmankhan002011.github.io/doctors-web/static/css/main.073c9b0a.css",
-    "main.js": "/usmankhan002011.github.io/doctors-web/static/js/main.ed8e6abe.js",
-    "static/js/787.c99bdb9a.chunk.js": "/usmankhan002011.github.io/doctors-web/static/js/787.c99bdb9a.chunk.js",
-    "static/media/logo.svg": "/usmankhan002011.github.io/doctors-web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/usmankhan002011.github.io/doctors-web/index.html",
-    "main.073c9b0a.css.map": "/usmankhan002011.github.io/doctors-web/static/css/main.073c9b0a.css.map",
-    "main.ed8e6abe.js.map": "/usmankhan002011.github.io/doctors-web/static/js/main.ed8e6abe.js.map",
-    "787.c99bdb9a.chunk.js.map": "/usmankhan002011.github.io/doctors-web/static/js/787.c99bdb9a.chunk.js.map"
+    "main.css": "/doctors-web/static/css/main.073c9b0a.css",
+    "main.js": "/doctors-web/static/js/main.82175984.js",
+    "static/js/787.c99bdb9a.chunk.js": "/doctors-web/static/js/787.c99bdb9a.chunk.js",
+    "static/media/logo.svg": "/doctors-web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/doctors-web/index.html",
+    "main.073c9b0a.css.map": "/doctors-web/static/css/main.073c9b0a.css.map",
+    "main.82175984.js.map": "/doctors-web/static/js/main.82175984.js.map",
+    "787.c99bdb9a.chunk.js.map": "/doctors-web/static/js/787.c99bdb9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ed8e6abe.js"
+    "static/js/main.82175984.js"
   ]
 }
