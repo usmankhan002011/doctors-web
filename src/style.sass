@@ -1,0 +1,48 @@
+html, body
+    background-color: black
+    margin: 0!important
+    padding: 0
+.major
+    display: flex
+    flex-direction: row
+    justify-content: space-evenly 
+    width: 100%
+    // flex-wrap: nowrap
+    position: absolute
+    overflow: hidden
+    .three
+        order: 1
+    .one
+        order: 2
+    .two
+        order: 3
+    .four
+        order: 4
+    .one, .two
+        position: relative
+        font-size: 0
+        display: flex
+        justify-content: center
+        margin: 1vw
+        width: 40vw
+    .three, .four
+        position: relative
+        display: flex
+        flex-direction: column
+        margin: 1vw
+        align-items: center
+        width: 10vw  
+.b1
+    background-color: #6e0404 
+    width: 60%
+    height: 4em
+    border-width: 0
+.b1:hover
+    background-color: #8d5252
+
+.b1[active='true']
+    background-color: #7f1d1d 
+
+// @media screen and (min-width: 1200px)
+//     body
+//         background: white
