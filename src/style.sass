@@ -1,0 +1,43 @@
+html, body
+    background-color: black
+    margin: 0!important
+    padding: 0
+.major
+    display: flex
+    flex-direction: row
+    justify-content: space-evenly 
+    min-width: 100vw
+    // flex-wrap: nowrap
+    position: absolute
+    // width: 100vw
+    // display: grid
+    // grid-template-columns: 20vw 30vw 30vw 20vw
+    // grid-gap: 1vw
+    overflow: hidden
+
+.one, .two
+    position: relative
+    font-size: 0
+    display: flex
+    justify-content: center
+    margin: 1vw
+.three, .four
+    position: relative
+    display: flex
+    flex-direction: column
+    margin: 1vw
+    align-items: center  
+.b1
+    background-color: #6e0404 
+    width: 7em
+    height: 4em
+    border-width: 0
+.b1:hover
+    background-color: #8d5252
+
+.b1[active='true']
+    background-color: #7f1d1d 
+
+@media (min-width: 700px)
+    .major
+        width: 100%

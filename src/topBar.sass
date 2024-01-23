@@ -1,0 +1,67 @@
+#topBar
+    // position: absolute
+    background-color: #B24359
+    margin: 0
+    padding: 0
+    height: 6rem
+    left: 0
+    right: 0
+    width: 100%
+    .topBarWrapper
+        margin: 0
+        padding: 0
+        display: flex
+        flex-wrap: nowrap
+        gap: 1em
+        align-items: center
+        max-width: 100%
+        overflow: hidden
+        height: 100%
+        h1
+            order: 1
+            margin-left: 1em
+            text-align: center
+            color: #FFAAAA
+            white-space: nowrap
+        input
+            float: right
+            margin-left: auto
+            order: 3
+            width: 10em
+            height: 2em
+            border: 1px solid black
+            border-radius: 0.5em
+            box-shadow: 1px 1px 1px
+            height: 3em
+        .topBarLeft, .topBarRight
+            display: flex
+            flex-wrap: nowrap
+            font-size: 0
+            align-self: center
+        .topBarLeft
+            order: 2
+            height: 100%
+            .b1
+                background-color: #B24359
+                height: 100%
+            .b1:hover
+                background-color: #D46A6A
+                cursor: pointer
+            .b1[active='true']
+                background-color: #550000 
+        .topBarRight
+            order: 4
+            margin-right: 2rem
+            max-width: 100%
+            .b1
+                border: 1px solid black
+                border-radius: 1em
+                box-shadow: 1px 1px 1px
+                height: 3em
+
+.colorText
+    color: #e7eaf6
+
+@media (max-width: 700px)
+    body
+        background-color: white
