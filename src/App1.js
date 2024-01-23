@@ -1,10 +1,12 @@
-
-//import Header from './Components/Header'
-import './App.css'
+/*import { useState } from 'react';*/
+import Header from './Components/Header'
+import './index.css'
 const App1 = () => {
   return (
-    <h1 className='App-header'>HELLO</h1>
-  );
+    <div className='topBar .topBarWrapper .topBarLeft'>
+      <Header Title= 'create form'/>
+    </div>
+  )
 }
 
 export default App1;
