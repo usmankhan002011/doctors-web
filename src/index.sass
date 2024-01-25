@@ -1,91 +1,258 @@
 body 
-  background-color: rgb(90, 83, 83)
+  background-color: rgb(109, 112, 110)
   margin: 0 !important
   padding: 0
-
-
-.major 
-  display: flex
-  flex-direction: row
-  justify-content: space-evenly
-  min-width: 100vw
-  position: absolute
-  overflow: hidden
-
-
-.one, .two 
-  position: relative
-  font-size: 0
-  display: flex
-  justify-content: center
-  margin: 1vw
-
-
-.three, .four 
-  position: relative
-  display: flex
-  flex-direction: column
-  margin: 1vw
-  align-items: center
-
-
-.b1 
-  background-color: #6e0404
-  width: 20em
-  height: 4em
-  border-width: 0
-  &:hover 
-    background-color: #b99d21
-  &[active=true] 
-    background-color: #87cd8d
-
-
-@media (min-width: 700px) 
-  .major 
+.container
+  max-width: 500px
+    // background-color: #B24359
+  margin: 30px auto
+    // padding: 0
+  min-height: 300px 
+    // left: 0
+    // right: 0
+  overflow: auto
+  border: 1px solid #636ddb78
+.header
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    margin-bottom:20px 
+    // min-width: 100vw 
+.p 
+    color: navy
+    text-indent: 30px
+    text-transform: uppercase
+    
+.btn
+    display:inline-block
+    
+    background-color: #046e34 
+    color: #a99406
+    padding: 10px 20px 
+    margin: 5px 
+    border: none
+    border-radius: 5px
+    cursor: pointer
+    text-decoration: none
     width: 100%
+.btn:hover
+    background-color: #8d5252
+
+.btn[active='true']
+    background-color: #7f1d1d 
+.task h3
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    // margin-bottom:20px 
+    // min-width: 100vw   
+
+   
+.task
+    background-color: #c6ddd3 
+    margin: 5px 
+    padding: 10px 20px
+    // cursor: pointer
+.togglereminder
+    border-left: 5px solid #d43838
+
+
+
+// .major
+//     display: flex
+//     flex-direction: row
+//     justify-content: space-evenly 
+//     min-width: 100vw
+//     // flex-wrap: nowrap
+//     position: absolute
+//     // width: 100vw
+//     // display: grid
+//     // grid-template-columns: 20vw 30vw 30vw 20vw
+//     // grid-gap: 1vw
+//     overflow: hidden
+
+// .one, .two
+//     position: relative
+//     font-size: 0
+//     display: flex
+//     justify-content: center
+//     margin: 1vw
+// .three, .four
+//     position: relative
+//     display: flex
+//     flex-direction: column
+//     margin: 1vw
+//     align-items: center  
+// .b1
+//     background-color: #6e0404 
+//     width: 20em
+//     height: 7em
+//     border-width: 0
+// .b1:hover
+//     background-color: #8d5252
+
+// .b1[active='true']
+//     background-color: #7f1d1d 
+
+// // @media (min-width: 700px)
+// //     .major
+// //         width: 100%
+
+// .topBar
+//     // position: absolute
+//     background-color: #B24359
+//     margin: 0
+//     padding: 0
+//     height: 6rem
+//     left: 0
+//     right: 0
+//     width: 100%
+//     .topBarWrapper
+//         margin: 0
+//         padding: 0
+//         display: flex
+//         flex-wrap: nowrap
+//         gap: 1em
+//         align-items: center
+//         max-width: 100%
+//         overflow: hidden
+//         height: 100%
+//         h1
+//             order: 1
+//             margin-left: 1em
+//             text-align: center
+//             color: #FFAAAA
+//             white-space: nowrap
+//         input
+//             float: right
+//             margin-left: auto
+//             order: 3
+//             width: 10em
+//             height: 2em
+//             border: 1px solid black
+//             border-radius: 0.5em
+//             box-shadow: 1px 1px 1px
+//             height: 3em
+//         .topBarLeft, .topBarRight
+//             display: flex
+//             flex-wrap: nowrap
+//             font-size: 0
+//             align-self: center
+//         .topBarLeft
+//             order: 2
+//             height: 100%
+//             .b1
+//                 background-color: #B24359
+//                 height: 100%
+//             .b1:hover
+//                 background-color: #D46A6A
+//                 cursor: pointer
+//             .b1[active='true']
+//                 background-color: #550000 
+//         .topBarRight
+//             order: 4
+//             margin-right: 2rem
+//             max-width: 100%
+//             .b1
+//                 border: 1px solid black
+//                 border-radius: 1em
+//                 box-shadow: 1px 1px 1px
+//                 height: 3em
+
+// .colorText
+//     color: #e7eaf6
+
+@media (max-width: 700px)
+    body
+        background-color: white
+
+
+// .major 
+//   display: flex
+//   flex-direction: row
+//   justify-content: space-evenly
+//   min-width: 100vw
+//   position: absolute
+//   overflow: hidden
+
+
+// .one, .two 
+//   position: relative
+//   font-size: 0
+//   display: flex
+//   justify-content: center
+//   margin: 1vw
+
+
+// .three, .four 
+//   position: relative
+//   display: flex
+//   flex-direction: column
+//   margin: 1vw
+//   align-items: center
+
+
+// .b1 
+//   background-color: #6e0404
+//   width: 7em
+//   height: 4em
+//   border-width: 0
+
+
+// .b1:hover 
+//   background-color: #b99d21
+
+
+// .b1[active=true] 
+//   background-color: #87cd8d
+
+
+// @media (min-width: 700px) 
+//   .major 
+//     width: 100%
   
 
-#topBar 
-  background-color: #B24359
-  margin: 0
-  padding: 0
-  height: 6rem
-  left: 0
-  right: 0
-  width: 100%
+// #topBar 
+//   background-color: #B24359
+//   margin: 0
+//   padding: 0
+//   height: 6rem
+//   left: 0
+//   right: 0
+//   width: 100%
 
-#topBar .topBarWrapper 
-  margin: 0
-  padding: 0
-  display: flex
-  flex-wrap: nowrap
-  gap: 1em
-  align-items: center
-  max-width: 100%
-  overflow: hidden
-  height: 100%
+// #topBar .topBarWrapper 
+//   margin: 0
+//   padding: 0
+//   display: flex
+//   flex-wrap: nowrap
+//   gap: 1em
+//   align-items: center
+//   max-width: 100%
+//   overflow: hidden
+//   height: 100%
 
-.topBar 
-  .topBarWrapper 
-    h1 
-      order: 1
-      margin-left: 1em
-      text-align: center
-      color: #FFAAAA
-      white-space: nowrap
+// .topBar 
+//   .topBarWrapper 
+//     h1 
+//       order: 1
+//       margin-left: 1em
+//       text-align: center
+//       color: #FFAAAA
+//       white-space: nowrap
 
-.topBar 
-  .topBarWrapper 
-    input 
-      float: right
-      margin-left: auto
-      order: 3
-      width: 10em
-      height: 2em
-      border: 1px solid black
-      border-radius: 0.5em
-      box-shadow: 1px 1px 1px
-      height: 3em
+// .topBar .topBarWrapper input 
+//   float: right
+//   margin-left: auto
+//   order: 3
+//   width: 10em
+//   height: 2em
+//   border: 1px solid black
+//   border-radius: 0.5em
+//   box-shadow: 1px 1px 1px
+//   height: 3em
 
 // #topBar .topBarWrapper .topBarLeft, #topBar .topBarWrapper .topBarRight 
 //   display: flex
@@ -101,7 +268,7 @@ body
 //   background-color: #B24359
 //   height: 100%
 
-// #topBar .topBarWrapper .b1:hover 
+// #topBar .topBarWrapper .topBarLeft .b1:hover 
 //   background-color: #D46A6A
 //   cursor: pointer
 
@@ -120,35 +287,35 @@ body
 //   height: 3em
 
 
-.colorText 
-  color: #e7eaf6
+// .colorText 
+//   color: #e7eaf6
 
 
-@media (max-width: 700px) 
-  body 
-    background-color: white
+// @media (max-width: 700px) 
+//   body 
+//     background-color: white
   
 
 
-/*# sourceMappingURL=topBar.css.map */
-/*# sourceMappingURL=style.css.map */
-/*
-// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap')
-// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400&display=swap')
-// *box-sizing: border-box
-//   margin: 0
-//   padding: 0
+// /*# sourceMappingURL=topBar.css.map */
+// /*# sourceMappingURL=style.css.map */
+// /*
+// // @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap')
+// // @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400&display=swap')
+// // *box-sizing: border-box
+// //   margin: 0
+// //   padding: 0
 
-// body font-family: 'Poppins', sans-serif*/
+// // body font-family: 'Poppins', sans-serif*/
   
 
-//   @import url('https://fonts.googleapis.com/css?family=Muli&display=swap')
-//   @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap')
-  // body 
-  // margin: 0
-  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  //   sans-serif
-  // -webkit-font-smoothing: antialiased
-  // -moz-osx-font-smoothing: grayscale
-  // background-color: rgb(93, 90, 90)
+// //   @import url('https://fonts.googleapis.com/css?family=Muli&display=swap')
+// //   @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap')
+//   // body 
+//   // margin: 0
+//   // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+//   //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+//   //   sans-serif
+//   // -webkit-font-smoothing: antialiased
+//   // -moz-osx-font-smoothing: grayscale
+//   // background-color: rgb(93, 90, 90)
