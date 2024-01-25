@@ -7,18 +7,36 @@ const AddTask = () => {
     const[reminder, setReminder]=useState (false)
         
   return (
-    <div className= 'form-control'>
-        <label>
-            Task
-        </label>
-        <input
-        type='text'
-        placeholder='Add Task'
-        value='text'
-        onChange={(e)=>setText(e.target.value)}
-        />
+    <form className='add-form'>
+        <div className='form-control'>
+            <label>Task</label>
+            <input
+                type='text'
+                placeholder='Add Task'
+                value={text}
+                onChange={(e) => setText(e.target.value)} />
 
-    </div>
+        </div>
+        <div className='form-control'>
+            <label>Day & Time</label>
+            <input
+                type='text'
+                placeholder='Add Day & Time'
+                value={Day}
+                onChange={(e) => setDay(e.target.value)} />
+
+        </div>
+        <div className='form-control form-control-check'>
+            <label>Set reminder</label>
+            <input
+                type='CheckBox'
+                // placeholder='Add Task'
+                value={reminder}
+                onChange={(e) => setReminder(e.currentTarget.checked)} />
+
+        </div>
+        <input type='submit' value='SaveTask' className='btn btn-block'/>
+    </form>
   )
 }
 

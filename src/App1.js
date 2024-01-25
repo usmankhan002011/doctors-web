@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Header from './Components/Header'
 import './index.sass'
-
+import Tasks from './Components/Tasks'
 import AddTask from './Components/AddTask'
 
 const App1 = () => {
@@ -44,7 +44,8 @@ const App1 = () => {
     
         
         <div className='container'>
-          <Header Title= 'create form'/> 
+          <Header Title= 'create form'/>
+          <AddTask/> 
           <Tasks
           tasks={tasks}
           onDelete={deltask}
