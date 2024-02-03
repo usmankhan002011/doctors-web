@@ -15,7 +15,7 @@ const Task = ({task,onDelete, onToggle}) => {
         />
         </h3>
         <p className='p'>
-        {task.Day}{''}
+        {task.day}{''}
         </p>
 
     </div>
