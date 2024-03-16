@@ -1,0 +1,23 @@
+{
+  "patients": [
+    { "id":1,
+      "name":"andila",
+      "age":3,
+      "M":"y",
+      "PG":"n",
+      "MG":2,
+      "mobile":3215131184,
+      "reminder":true
+    },
+    { "id":2,
+      "name": "andila",
+      "age":3,
+      "M":"y",
+      "PG":"n",
+      "MG":2,
+      "mobile":3215131184,
+      "reminder":true
+    }
+    
+  ]
+}

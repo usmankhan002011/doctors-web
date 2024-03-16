@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.sass';
-import App1 from './App1';
+import './Docweb.sass';
+// import './index.sass';
+// import App1 from './App1';
+import Docweb from './Docweb';
 import reportWebVitals from './reportWebVitals';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App1 />
+    {/* <App1 /> */}
+    <Docweb/>
   </React.StrictMode>
 );
 
